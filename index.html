@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/index.css">
+
+</head>
+<body>
+    <div class="bg-danger w-75 m-auto p-5">
+        <label for="Name" >Name:</label>
+        <input type="text" class="form-control" id="studentName">
+        <div class="alert alert-danger my-3 p-2 d-none " id="alertName">name should contain uppercase and lowercase characters </div>
+        <label for="Age" >Age:</label>
+        <input type="number" class="form-control" id="studentAge">
+        <label for="email" >Email:</label>
+        <input type="email" class="form-control" id="studentEmail">
+        <label for="Gender">Gender:</label>
+        <input type="text" class="form-control" id="studentGender">
+        <label for="Description">Description</label>
+        <textarea name="desc" class="form-control" id="studentInfo"></textarea>
+        <button class="btn btn-dark float-end my-3" id="addBtn" disabled>ADD</button>
+        <div class="clearfix"></div>
+        <input type="text" id="searchInput" placeholder="search by name.." class="form-control p-2"  >
+            
+
+            <table  class="table">
+                <thead>
+                <th>Name:</th>
+                <th> Age:</th>
+                <th> Email:</th>
+                <th>Gender:</th>
+                <th>Description:</th>
+                <th></th>
+                <th></th>
+                    </thead>
+                    <tbody id="tableData"></tbody>
+            </table>
+    </div>
+
+
+
+    <script src="all.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

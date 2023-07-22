@@ -1,0 +1,180 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    background-image:url(images/drew-coffman-1872.jpg);
+    background-position: center;
+    background-size:100%;
+    height: 100vh;
+    overflow: auto;
+}
+.header-content{
+ margin-top: 190px;
+ 
+ color: white;
+}
+.header-p-box p{
+    font-family: "Alegreya Sans" ;
+    font-size: 22px;
+    margin: 0 0 5px;
+}
+.header-p-box h2{
+    font-family: "Alegreya Sans" ;
+    font-size: 76px;
+    margin: 0 0 18px;
+    word-spacing: 0px;
+}
+#header-last{
+    font-family: "Alegreya Sans" ;
+    font-size: 24px;
+    margin: 10px 0 20px;
+}
+.header-content button{
+    font-family: "Alegreya Sans" ;
+    background-color: #ae9768;
+    color: white;
+    padding: 18px 28px;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 30px;
+    border: none;
+    border-radius: 7px;
+    transition: 0.2s ease-in-out;
+}
+.header-content button:hover{
+    background-color:white;
+    color: black;
+}
+
+#white-border
+{
+    background-color: transparent;
+    border: 2px solid white;
+}
+#white-border:hover{
+    background-color: white;
+    
+}
+
+/*navbar*/
+
+nav{
+   
+   
+    padding: 15px 0 0;
+    
+}
+.nav-icon{
+    font-family: "Alegreya";
+    height: 48px;
+    margin-top: -24px;
+
+}
+
+.nav-item a{
+    font-size: 18px;
+    font-family: "Alegreya";
+    color: white;
+    
+}
+.nav-link:hover{
+    color: #ae9768;
+}
+.nav-l-content-home{
+    color: white;
+    transition: 0.4s ease-in-out;
+}
+.nav-l-content-home:hover{
+    color: #ae9768;
+}
+
+/* who we are */
+.who-we{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.r-who{
+    padding: 0 15px;
+}
+.who-we img{
+    width: 95%;
+
+}
+.l-who{
+    padding: 35px 15px;
+}
+.who-we h2{
+    margin-bottom: 25px;
+    font-size: 32px;
+    font-family:"Alegreya" ;
+
+}
+#who-light{
+    color:#686868;
+    font-size: 17px;
+    font-family: "Alegreya Sans";
+}
+
+.who-we ul li{
+    padding: 15px 0;
+}
+.who-icon{
+    font-size: 20px;
+    color: #9c8556;
+    margin:0 10px 0 0;
+    border: 1px solid #b7adad ;
+    border-radius: 20px;
+    padding: 6px;
+}
+
+
+/*location*/
+.location{
+    background-color: #f8f8f8;
+}
+.loc-l{
+    margin-top: 90px;
+    padding: 20px 15px 0 15px;
+}
+.loc-l h2{
+    font-size: 32px;
+    margin: 0 0 15px;
+    font-family: "Alegreya";
+    color:#303030;
+
+}
+.loc-l p{
+    font-size: 17px;
+    margin:0 0 20px;
+    font-family: "Alegreya Sans";
+    color: #686868;
+}
+
+/*baking*/
+
+.baking-head h3{
+    font-size: 30px;
+    font-family: "Alegreya";
+}
+.baking-head p{
+    font-size: 17px;
+    color: #888888;
+    font-family: "Alegreya Sans";
+}
+.card-img{
+    padding: 0 20px 0 15px;
+}
+.card-text h4{
+    font-family: "Alegreya";
+    font-size: 22px;
+    margin: 15px 0 ;
+}
+.card-text p{
+    font-size: 17px;
+    color: #888888;
+    font-family: "Alegreya Sans";
+}
